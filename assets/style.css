@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #c0cbff;
+}
+
+.envelope-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.envelope {
+  cursor: pointer;
+}
+
+.envelope img {
+  width: 250px;
+  animation-name: fly;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.cloud-container {
+  position: fixed;
+  bottom: -25%;
+}
+
+.flower-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 800px;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.flower-container.show {
+  display: flex;
+}
+
+.flowers {
+  max-width: 100%;
+  height: auto;
+}
+
+.cherry-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 800px;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.cherry {
+  max-width: 100%;
+  height: auto;
+}
+
+.cherry-container.show {
+  display: flex;
+}
+
+.letter-container {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.letter {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  animation-name: fadeIn;
+  animation-duration: 3s;
+}
+
+.loveFont {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.customButton {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #ffc0cb;
+  color: white;
+  border: 1px solid #ffc0cb;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes flyinaway {
+  to {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes fallAndAppear {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes fly {
+
+  0%,
+  100% {
+    transform: translateY(-30%) rotateZ(0deg);
+  }
+
+  50% {
+    transform: translateY(30%) rotateZ(4deg);
+  }
+
+  75% {
+    transform: translateY(-30%) rotateZ(-4deg);
+  }
+}
