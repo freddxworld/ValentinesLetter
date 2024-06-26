@@ -1,11 +1,11 @@
 # ❤️❤️❤️ ValentinesLetter ❤️❤️❤️
 
-## Project Description
+## 📝Project Description
 
 Developed a themed invitation website for Valentines Day, featuring interactive
 elements and dynamic responses based on user input
 
-## Key Features
+## 💡Key Features
 
 - **interactive Animation** : A bird flying up and down on its way delivering a note
   that users can click on to proceed to read the letter
@@ -14,7 +14,7 @@ elements and dynamic responses based on user input
 - **Responsive Design** : Ensuring the website is visually appealing and functional across different devices.
 - **Hosting** : Deployed using GitHub Pages for easy access and sharing.
 
-## Technologies Used
+## ⚙️ Technologies Used
 - HTML
 - CSS
 - JavaScript
@@ -22,6 +22,6 @@ elements and dynamic responses based on user input
 - Git via terminal
 - nvim editor
 
-## Demo
+## 📹Demo
 
-## Screenshots
+## 📷 Screenshots
