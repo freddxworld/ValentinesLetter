@@ -25,3 +25,5 @@ elements and dynamic responses based on user input
 ## 📹Demo
 
 ## 📷 Screenshots
+![Home page featuring bird delivering note](assets/screenshots/homepage.png)
+Homepage where the bird is delivering the note
