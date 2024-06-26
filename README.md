@@ -1,2 +1,16 @@
 # ValentinesLetter
-Valentines Invitation Website: A themed interactive website for Valentine's Day featuring a clickable animated bird delivering a note, user-selectable responses leading to dynamic YouTube video integration, built using HTML, CSS, and JavaScript, and deployed on GitHub Pages.
+
+## Project Description
+
+Developed a themed invitation website for Valentines Day, featuring interactive
+elements and dynamic responses based on user input
+
+## Key Features
+
+- Interactive Animation: A bird flying up and down on its way delivering a note
+  that users can click on to proceed to read the letter
+- **User Choices** : Two response options (yes/no) leading to different outcomes.
+
+* Dynamic Content: Integration with YouTube to play specific videos based on user responses.
+* Responsive Design: Ensuring the website is visually appealing and functional across different devices.
+* Hosting: Deployed using GitHub Pages for easy access and sharing.
