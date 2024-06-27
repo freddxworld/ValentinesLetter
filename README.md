@@ -10,11 +10,12 @@ elements and dynamic responses based on user input
 - **interactive Animation** : A bird flying up and down on its way delivering a note
   that users can click on to proceed to read the letter
 - **User Choices** : Two response options (yes/no) leading to different outcomes.
-- **Dynamic Content**  Integration with YouTube to play specific videos based on user responses.
+- **Dynamic Content** Integration with YouTube to play specific videos based on user responses.
 - **Responsive Design** : Ensuring the website is visually appealing and functional across different devices.
 - **Hosting** : Deployed using GitHub Pages for easy access and sharing.
 
 ## ⚙️ Technologies Used
+
 - HTML
 - CSS
 - JavaScript
@@ -25,5 +26,16 @@ elements and dynamic responses based on user input
 ## 📹Demo
 
 ## 📷 Screenshots
+
 ![Home page featuring bird delivering note](assets/screenshots/homepage.png)
 Homepage where the bird is delivering the note
+
+![invitation message with options to accept or
+decline](assets/screenshots/note.png)
+Note with options to decline or accept
+
+![Acceptance option](assets/screenshots/yes.png)
+Yes, option
+
+![Decline option](assets/screenshots/no.png)
+No, option
