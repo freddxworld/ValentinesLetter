@@ -25,6 +25,8 @@ elements and dynamic responses based on user input
 
 ## 📹Demo
 
+[![Watch the demo video](https://img.youtube.com/vi/-ZhGho1GYds/0.jpg)](https://www.youtube.com/watch?v=-ZhGho1GYds)
+
 ## 📷 Screenshots
 
 ![Home page featuring bird delivering note](assets/screenshots/homepage.png)
